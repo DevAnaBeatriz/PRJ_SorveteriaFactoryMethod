@@ -11,7 +11,7 @@
 ### A ideia é permitir que cada filial da sorveteria possa criar o tipo de sorvete que desejar, utilizando uma estrutura orientada a objetos baseada no padrão Factory Method.
 
 ## Estrutura do Projeto
-´´´bash
+```bash
 PRJ_SorveteriaFactoryMethod/
 ├── app/
 │   └── Main.java
@@ -23,7 +23,7 @@ PRJ_SorveteriaFactoryMethod/
 │   ├── Sorvete.java             // Produto abstrato
 │   ├── SorveteLeite.java        // Produto concreto
 │   └── SorveteVegano.java       // Produto concreto
-´´´
+```
 
 ## Explicação das Classes
 ### - Sorveteria: Classe abstrata que define o método fábrica criarSorvete(), responsável por instanciar os sorvetes. Também contém o método venderSorvete(), que encapsula a lógica comum.
@@ -49,9 +49,9 @@ PRJ_SorveteriaFactoryMethod/
 
 ### Clone o repositório:
 
-´´´bash
+```bash
 git clone https://github.com/DevAnaBeatriz/PRJ_SorveteriaFactoryMethod.git
-´´´
+```
 
 ### Importe o projeto em uma IDE Java (IntelliJ, Eclipse, VS Code etc.).
 
